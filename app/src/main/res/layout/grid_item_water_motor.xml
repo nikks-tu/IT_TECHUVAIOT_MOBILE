@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/grid_height"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="@dimen/margin_five"
+    android:gravity="center"
+    android:elevation="@dimen/margin_two"
+    android:layout_margin="@dimen/view_margin"
+    tools:targetApi="lollipop">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+     <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="end"
+         android:gravity="end">
+         <TextView
+             android:id="@+id/tv_channel_icon"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:layout_gravity="start"
+             android:layout_marginLeft="@dimen/margin_five"
+             android:layout_marginTop="@dimen/margin_five"
+             android:layout_marginRight="@dimen/margin_five"
+             android:gravity="center|center_vertical"
+             android:textColor="@color/white"
+             android:background="@drawable/circle_blue"
+             android:textSize="@dimen/activity_textSize_small_16"/>
+         <ImageView
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             app:srcCompat="@drawable/edit_channel"
+             android:id="@+id/iv_editChannel"
+             android:layout_gravity="end"
+             android:gravity="end"
+             android:padding="@dimen/margin_five"/>
+     </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text=""
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/margin_five"
+            android:layout_marginRight="@dimen/margin_five"
+            android:textColor="@color/blue_sky_top_view"
+            android:id="@+id/tv_channel_value"
+            android:gravity="center|center_vertical"
+            android:layout_gravity="center"
+            android:textSize="@dimen/activity_textSize_large_thirty"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/divider"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/margin_five"
+            android:layout_marginRight="@dimen/margin_five"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:textColor="@color/text_color_light"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:id="@+id/tv_channel_name_motor"
+            android:textSize="@dimen/activity_textSize_small_16"
+            android:padding="@dimen/margin_five"
+            android:fontFamily="@fonts/AvenirLTStd-Light.otf"
+            tools:targetApi="jelly_bean"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_five"
+        android:layout_marginRight="@dimen/margin_five">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_five"
+            android:layout_marginBottom="@dimen/margin_five"
+            android:layout_marginLeft="@dimen/large_view_margin"
+            android:layout_marginRight="@dimen/large_view_margin">
+          <ImageView
+              android:layout_width="@dimen/extra_small_image_view"
+              android:layout_height="@dimen/extra_small_image_view"
+              android:src="@drawable/device_type"
+              android:padding="@dimen/margin_five"
+              android:layout_gravity="center"
+              android:id="@+id/v_device_icon"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin_five">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:layout_gravity="center"
+                    android:id="@+id/tv_deviceName"
+                    android:padding="@dimen/margin_two"
+                    android:textSize="@dimen/activity_textSize_small_16"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/margin_two"
+                    android:id="@+id/tv_deviceId"
+                    android:textSize="@dimen/activity_textSize_small_16"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyRadioButtonStyle"
+            android:id="@+id/rb_deviceUsed"
+            android:layout_margin="@dimen/view_margin"
+            android:focusable="false"
+            android:visibility="gone"
+            android:layout_gravity="end|center"/>
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_one"
+        android:visibility="gone"
+        android:background="@color/text_color_light_op"/>
+
+</LinearLayout>

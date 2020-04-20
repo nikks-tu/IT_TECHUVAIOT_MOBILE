@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_five"
+            android:layout_marginBottom="@dimen/margin_five">
+            <TextView
+                android:layout_width="@dimen/circle_iv_h_w"
+                android:layout_height="@dimen/circle_iv_h_w"
+                android:text="AA"
+                android:gravity="center"
+                android:background="@drawable/circle_background_names"
+                android:id="@+id/tv_name_initials"
+                android:textColor="@color/white"
+                android:textSize="@dimen/activity_textSize_small_16"
+                android:layout_margin="@dimen/margin_five"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:id="@+id/tv_userNames"
+                android:layout_margin="@dimen/margin_five"
+                android:textSize="@dimen/activity_textSize_small_16"/>
+
+        </LinearLayout>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/MyRadioButtonStyle"
+            android:id="@+id/rb_accountUsed"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_gravity="end|center"/>
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_one"
+        android:background="@color/text_color_light_op"/>
+
+</LinearLayout>

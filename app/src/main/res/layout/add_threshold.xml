@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin_five">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tv_alertText"
+                android:text="@string/new_threshold"
+                android:gravity="start|center"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/activity_textSize_small"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_cancel"
+                app:srcCompat="@drawable/cancel"
+                android:tint="@color/colorPrimary"
+                android:visibility="gone"/>
+           </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_threshold"
+            android:id="@+id/tv_channel_name"
+            android:visibility="gone"
+            android:textColor="@color/text_color_dark"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:layout_margin="@dimen/margin_five"
+            android:padding="@dimen/margin_five"
+            android:textSize="@dimen/activity_textSize_small_16"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+           <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin_channel"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/divider"
+            android:layout_margin="@dimen/margin_two"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:padding="@dimen/margin_five">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="@string/select_channel"
+               android:textAlignment="center"
+               android:visibility="gone"
+               android:textColor="@color/text_color_dark"
+               android:layout_margin="@dimen/margin_five"
+               android:textSize="@dimen/activity_textSize_small_16"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+               />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:hint="@string/threshold_name"
+               android:id="@+id/edt_threshold_name"
+               android:background="@null"
+               android:layout_margin="@dimen/margin_five"
+               android:textSize="@dimen/activity_textSize_small_16"
+               android:visibility="gone"/>
+
+           <Spinner
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/spin_threshold_name"/>
+
+       </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/divider"
+            android:layout_margin="@dimen/margin_two"
+            android:id="@+id/divider"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="@dimen/margin_five">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="@string/select_channel"
+               android:textAlignment="center"
+               android:layout_margin="@dimen/margin_five"
+               android:visibility="gone"
+               android:textColor="@color/text_color_dark"
+               android:textSize="@dimen/activity_textSize_small_16"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+               />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:hint="@string/threshold_value"
+               android:id="@+id/edt_threshold_value"
+               android:background="@null"
+               android:layout_margin="@dimen/margin_five"
+               android:textSize="@dimen/activity_textSize_small_16"/>
+       </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/divider"
+            android:layout_margin="@dimen/margin_two"
+            android:visibility="visible"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin_five">
+            <TextView
+                android:id="@+id/button_cancel"
+                android:layout_width="@dimen/top_ten_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/activity_textSize_small_16"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:text="@string/close"
+                android:padding="@dimen/margin_five"
+                android:textColor="@color/white"
+                android:layout_marginRight="@dimen/margin_five"
+                android:layout_marginLeft="@dimen/margin_five"/>
+            <TextView
+                android:id="@+id/button_ok"
+                android:layout_width="@dimen/top_ten_layout_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/activity_textSize_small_16"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:text="@string/save"
+                android:padding="@dimen/margin_five"
+                android:layout_marginRight="@dimen/margin_five"
+                android:layout_marginLeft="@dimen/margin_five" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

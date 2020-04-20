@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_channel_information"
+            android:id="@+id/tv_head"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:textSize="22sp"
+            android:layout_margin="@dimen/margin_five"
+            android:padding="@dimen/margin_five"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_channel_label"
+            android:text="@string/channel_label"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="@dimen/view_margin"
+            android:layout_marginRight="@dimen/view_margin"
+            android:padding="@dimen/margin_five"
+            android:textSize="@dimen/activity_textSize_extra_small"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/edt_channel_label"
+            android:textSize="@dimen/activity_textSize_x_large"
+            android:hint="@string/channel_label"
+            android:padding="@dimen/margin_five"
+            android:layout_marginLeft="@dimen/view_margin"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/colorPrimaryTrans"
+            android:padding="@dimen/margin_five"
+            android:layout_margin="@dimen/margin_five"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_channel_max_value"
+            android:text="@string/channel_max_value"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="@dimen/view_margin"
+            android:layout_marginRight="@dimen/view_margin"
+            android:padding="@dimen/margin_five"
+            android:textSize="@dimen/activity_textSize_extra_small"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/edt_channel_max_value"
+            android:textSize="@dimen/activity_textSize_x_large"
+            android:hint="@string/channel_max_value"
+            android:padding="@dimen/margin_five"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="@dimen/view_margin"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/colorPrimaryTrans"
+            android:padding="@dimen/margin_five"
+            android:layout_margin="@dimen/margin_five"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_channel_min_value"
+            android:text="@string/channel_min_value"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="@dimen/view_margin"
+            android:layout_marginRight="@dimen/view_margin"
+            android:padding="@dimen/margin_five"
+            android:textSize="@dimen/activity_textSize_extra_small"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/edt_channel_min_value"
+            android:textSize="@dimen/activity_textSize_x_large"
+            android:hint="@string/channel_min_value"
+            android:padding="@dimen/margin_five"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="@dimen/view_margin"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/colorPrimaryTrans"
+            android:padding="@dimen/margin_five"
+            android:layout_margin="@dimen/margin_five"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_unit_measure"
+            android:text="@string/unit_of_measure"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="@dimen/view_margin"
+            android:layout_marginRight="@dimen/view_margin"
+            android:padding="@dimen/margin_five"
+            android:textSize="@dimen/activity_textSize_extra_small"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/edt_unit_measure"
+            android:textSize="@dimen/activity_textSize_x_large"
+            android:hint="@string/unit_of_measure"
+            android:padding="@dimen/margin_five"
+            android:inputType="text"
+            android:layout_marginLeft="@dimen/view_margin"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/colorPrimaryTrans"
+            android:padding="@dimen/margin_five"
+            android:layout_margin="@dimen/margin_five"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/button_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="end|center"
+                android:text="@string/cancel"
+                android:textSize="@dimen/activity_textSize_small"
+                android:padding="@dimen/view_margin"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="@dimen/large_view_margin"
+                android:textAllCaps="true"
+                android:layout_marginRight="@dimen/view_margin"/>
+            <TextView
+                android:id="@+id/button_update"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|center_vertical"
+                android:gravity="end"
+                android:layout_marginRight="@dimen/large_view_margin"
+                android:background="@color/colorPrimary"
+                android:text="Update"
+                android:padding="@dimen/view_margin"
+                android:textAllCaps="true"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/grid_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="@dimen/margin_five"
+    android:id="@+id/cv_item"
+    android:gravity="center"
+    android:elevation="@dimen/margin_two"
+    app:cardCornerRadius="@dimen/margin_five"
+    android:layout_margin="@dimen/view_margin"
+    tools:targetApi="lollipop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/ll_main"
+        android:background="@color/bug_red"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/time_txt"
+            android:padding="@dimen/view_margin"
+            android:layout_weight="0.8"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/activity_navigation_large"
+            android:id="@+id/tv_channel_data"
+            tools:targetApi="jelly_bean" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_one"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"
+            android:layout_margin="@dimen/margin_five"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_channel_name"
+            tools:targetApi="jelly_bean" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

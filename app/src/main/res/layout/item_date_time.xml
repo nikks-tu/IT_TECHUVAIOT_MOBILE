@@ -1,0 +1,43 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/view_margin"
+    android:paddingRight="@dimen/view_margin"
+    android:gravity="center"
+    android:layout_marginLeft="@dimen/margin_two"
+    android:layout_marginRight="@dimen/margin_two">
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white"
+        android:layout_margin="@dimen/margin_three"/>
+
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/app_name"
+        android:layout_below="@+id/tv_day"
+        android:layout_marginLeft="@dimen/margin_three"
+        android:layout_marginRight="@dimen/margin_three"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:id="@+id/view_selected"
+        android:layout_height="2dp"
+        android:visibility="visible"
+        android:layout_below="@+id/tv_date"
+        android:background="@color/text_color_red"/>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+    <stroke android:color="@color/divider"
+        android:width="0dp"
+        />
+    <solid android:color="@color/colorPrimary" />
+    <padding android:left="@dimen/margin_one"
+        android:right="@dimen/margin_one"
+        android:top="@dimen/margin_one"
+        android:bottom="@dimen/margin_one"/>
+</shape>

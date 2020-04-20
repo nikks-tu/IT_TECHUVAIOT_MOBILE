@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_txt"
+        android:padding="@dimen/margin_five"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/tv_history_channel_data"
+        tools:targetApi="jelly_bean" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_txt"
+        android:padding="@dimen/margin_five"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/tv_channel_one"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_txt"
+        android:padding="@dimen/margin_five"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/tv_channel_three"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_txt"
+        android:padding="@dimen/margin_five"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/tv_channel_four"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_txt"
+        android:padding="@dimen/margin_five"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/tv_channel_five"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_txt"
+        android:padding="@dimen/margin_five"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/tv_channel_six"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_txt"
+        android:padding="@dimen/margin_five"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/tv_channel_seven"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time_txt"
+        android:padding="@dimen/margin_five"
+        android:textColor="@color/dark_blue"
+        android:id="@+id/tv_channel_eight"
+        tools:targetApi="jelly_bean" />
+
+
+</LinearLayout>

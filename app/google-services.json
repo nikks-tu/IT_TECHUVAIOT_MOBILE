@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "752880525199",
+    "firebase_url": "https://techuva-iot.firebaseio.com",
+    "project_id": "techuva-iot",
+    "storage_bucket": "techuva-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752880525199:android:8a51f0d3e21bef05",
+        "android_client_info": {
+          "package_name": "com.techuva.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752880525199-7440kfklu3m2luan8msq8m8c5fmt99jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj5X8RGFQieE04XqL0eE5DMrIcbfkBLP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

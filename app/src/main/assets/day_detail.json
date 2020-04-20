@@ -1,0 +1,61 @@
+{
+	"DeviceID": "TUCMS20180200001",
+	"DeviceName": "Device-1",
+	"Values": [{
+			"Key": 1,
+			"Label": "Temperature",
+			"Value": "25.5",
+			"icon": "5304",
+			"date": "24-OCT-2018",
+			"time": "12:12:12"
+		},
+		{
+			"Key": 3,
+			"Label": "Thermostat",
+			"Value": "0",
+			"icon": "5305",
+			"date": "24-OCT-2018",
+			"time": "12:12:12"
+		},
+		{
+			"Key": 4,
+			"Label": "HighPressure",
+			"Value": "1",
+			"icon": "5306",
+			"date": "24-OCT-2018",
+			"time": "12:12:12"
+		},
+		{
+			"Key": 5,
+			"Label": "LowPressure",
+			"Value": "0",
+			"icon": "5307",
+			"date": "24-OCT-2018",
+			"time": "12:12:12"
+		},
+		{
+			"Key": 6,
+			"Label": "CompressorOLR",
+			"Value": "0",
+			"icon": "5310",
+			"date": "24-OCT-2018",
+			"time": "12:12:12"
+		},
+		{
+			"Key": 7,
+			"Label": "PrimaryPumpOLR",
+			"Value": "0",
+			"icon": "5311",
+			"date": "24-OCT-2018",
+			"time": "12:12:12"
+		},
+		{
+			"Key": 8,
+			"Label": "SinglePhasing",
+			"Value": "0",
+			"icon": "5308",
+			"date": "24-OCT-2018",
+			"time": "12:12:12"
+		}
+	]
+}

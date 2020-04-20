@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/top_ten_layout_height"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_main"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_five"
+        android:layout_margin="@dimen/margin_five"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/ll_icon">
+        <com.techuva.iot.utils.views.TextViewIcomoon
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_navigation_large"
+            android:paddingLeft="@dimen/margin_five"
+            android:paddingRight="@dimen/margin_five"
+            android:id="@+id/tv_channel_icon"
+            android:textColor="@color/blue_light"
+            android:layout_margin="@dimen/margin_five"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_channel_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activity_textSize_x_extra_small"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+</LinearLayout>

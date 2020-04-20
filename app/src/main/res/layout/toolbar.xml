@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_top"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ToolbarTheme"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAlignment="textStart"
+        android:layout_gravity="center"
+        android:id="@+id/toolbar_title"
+        tools:ignore="RtlCompat"
+        android:textSize="@dimen/activity_textSize_large"
+        android:textColor="@color/white"/>
+
+
+</androidx.appcompat.widget.Toolbar>
